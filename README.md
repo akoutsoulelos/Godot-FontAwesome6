@@ -8,5 +8,5 @@ This is a plugin that lets you use FontAwesome 6 (free) icons in your project.
 
 Properties:  
 - `icon_size`: icon's size.  
-- `icon_type`: icon type，There are three different icon set `solid`/`regular`/`brands`，for more details look [this site](https://fontawesome.com/cheatsheet/free/solid).
-- `icon_name`: icon name，for instance `flag` correspond to ![flag](addons/font-awesome-6/flag-solid.svg)，go [here](https://fontawesome.com/cheatsheet/free/solid) to find more icon names.
+- `icon_type`: icon type，There are three different icon set `solid`/`regular`/`brands`，for more details look at [this site](https://fontawesome.com/cheatsheet/free/solid).
+- `icon_name`: icon name，for instance `flag` corresponds to ![flag](addons/font-awesome-6/flag-solid.svg) | go [here](https://fontawesome.com/cheatsheet/free/solid) to find more icon names.
