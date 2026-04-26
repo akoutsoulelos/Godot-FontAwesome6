@@ -1,4 +1,4 @@
-# FontAwesome6 icon plugin for Godot 3.x
+# FontAwesome6 icon plugin for Godot 4.x
 This is a plugin that lets you use FontAwesome 6 (free) icons in your project.
 
 ## How to use:
