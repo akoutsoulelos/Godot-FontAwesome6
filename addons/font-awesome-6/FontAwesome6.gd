@@ -37,7 +37,7 @@ func set_icon_type(type: String):
 	icon_type = type
 	match icon_type:
 		"solid", "regular", "brands":
-			font.set_font_data(icon_font[icon_type])
+			font.font_data = icon_font[icon_type]
 			set_icon_name(icon_name)
 
 # ==============================================================================
@@ -58,6 +58,6 @@ func set_icon_name(name: String):
 func _init():
 	match icon_type:
 		"solid", "regular", "brands":
-			font.set_font_data(icon_font[icon_type])
-			set("custom_fonts/font", font)
+			font.font_data = icon_font[icon_type]
+			add_theme_font_override("font", font)
 
